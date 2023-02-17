@@ -1,0 +1,39 @@
+.todo_form {
+  display: flex;
+  margin-top: 5rem;
+  color: white;
+}
+
+.todo_form li {
+  padding: 1rem;
+  min-width: 300px;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.todo_item, .todo_item_completed {
+  background: linear-gradient(
+    to bottom right,
+    rgb(16, 12, 48),
+    rgb(75, 25, 83)
+  );
+}
+
+.todo_item_completed {
+  border: 2px solid rgb(116, 241, 116);
+}
+
+.todo_item {
+  border: 2px solid rgb(0, 229, 255);
+}
+
+.todo_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.delete_icon {
+  color:rgb(0, 229, 255) ;
+}

@@ -1,0 +1,44 @@
+.todo_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.todo_input input {
+  padding: 1rem;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  align-items: center;
+  text-align: center;
+}
+
+::placeholder {
+  color: black;
+}
+
+.todo_input input:focus {
+  outline: none;
+  border: 2px solid rgb(162, 0, 255);
+}
+
+select {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .todo_input input {
+    width: 300px;
+  }
+}
